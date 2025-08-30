@@ -1,4 +1,4 @@
-// text jodi kono html tag er moddhe thake sei text ke dhorar function
+// funtion of to get a text from html tag
 function getInnerTextById(id) {
   const value = document.getElementById(id).innerText;
   const convertValue = parseInt(value);
